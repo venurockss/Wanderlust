@@ -18,7 +18,7 @@ const cors = require('cors');
 const flash = require("connect-flash");
 
 const ExpressError = require("./utils/Express.js");
-const review = require("../AIRBNB/models/reviews.js");
+const review = require("./models/reviews.js");
 const passport =require("passport");
 const LocalStrategy = require("passport-local").Strategy;
 const User = require("./models/user.js");
