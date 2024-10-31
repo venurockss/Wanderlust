@@ -98,7 +98,7 @@ app.use(passport.session());
 
 app.use("/listing",listing);
 app.get("/", (req, res) => {
-    res.redirect("/listing"); // Redirect the root route to "/listing"
+    res.redirect("/listing"); 
 });
 app.use("/listing/:id/review",reviews);
 app.use("/",userRoute);
